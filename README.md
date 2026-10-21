@@ -1,16 +1,34 @@
-# React + Vite
+# Menu Makanan
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplikasi web daftar menu makanan yang dibuat menggunakan React dan Vite.
 
-Currently, two official plugins are available:
+## Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Menampilkan nama makanan dan minuman.
+- Menampilkan kategori menu.
+- Menampilkan harga dalam format rupiah.
+- Menampilkan status ketersediaan menu.
 
-## React Compiler
+## Teknologi
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
 
-## Expanding the Oxlint configuration
+## Cara Menjalankan Proyek
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Pastikan Node.js sudah terpasang.
+2. Buka terminal pada folder proyek.
+3. Jalankan perintah berikut:
+
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+4. Buka alamat lokal yang muncul di terminal pada browser.
+
+## Komponen
+
+Komponen `MenuCard` digunakan untuk menampilkan informasi setiap menu berdasarkan props, seperti nama, kategori, harga, dan status ketersediaan.
