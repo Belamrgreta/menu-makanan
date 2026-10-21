@@ -32,3 +32,11 @@ Aplikasi web daftar menu makanan yang dibuat menggunakan React dan Vite.
 ## Komponen
 
 Komponen `MenuCard` digunakan untuk menampilkan informasi setiap menu berdasarkan props, seperti nama, kategori, harga, dan status ketersediaan.
+
+## Contoh Menu
+
+| Nama Menu | Kategori | Harga |
+|---|---|---:|
+| Nasi Goreng | Makanan Utama | Rp15.000 |
+| Mie Ayam | Makanan Utama | Rp12.000 |
+| Es Teh Manis | Minuman | Rp5.000 |
