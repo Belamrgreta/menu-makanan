@@ -40,3 +40,6 @@ Komponen `MenuCard` digunakan untuk menampilkan informasi setiap menu berdasarka
 | Nasi Goreng | Makanan Utama | Rp15.000 |
 | Mie Ayam | Makanan Utama | Rp12.000 |
 | Es Teh Manis | Minuman | Rp5.000 |
+
+## Riwayat Pengembangan
+Proyek ini dikembangkan menggunakan React dan Vite.c
