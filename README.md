@@ -43,3 +43,7 @@ Komponen `MenuCard` digunakan untuk menampilkan informasi setiap menu berdasarka
 
 ## Riwayat Pengembangan
 Proyek ini dikembangkan menggunakan React dan Vite.c
+
+## Pengembangan Fitur
+
+Aplikasi menu makanan akan dikembangkan dengan fitur filter kategori untuk memudahkan pengguna mencari menu berdasarkan kategori makanan.
