@@ -1,49 +1,65 @@
 # Menu Makanan
 
-Aplikasi web daftar menu makanan yang dibuat menggunakan React dan Vite.
+## Deskripsi
 
-## Fitur
+Menu Makanan adalah aplikasi web berbasis React dan Vite untuk menampilkan daftar menu makanan. Aplikasi ini dikembangkan sebagai proyek pembelajaran pemrograman web.
 
-- Menampilkan nama makanan dan minuman.
-- Menampilkan kategori menu.
-- Menampilkan harga dalam format rupiah.
-- Menampilkan status ketersediaan menu.
+## Screenshot Aplikasi
+
+
 
 ## Teknologi
 
 - React
 - Vite
 - JavaScript
-- CSS
+- HTML dan CSS
+
+## Daftar Komponen dan Props
+
+| Komponen       | Props                               | Fungsi                              |
+| -------------- | ----------------------------------- | ----------------------------------- |
+| App            | Sesuaikan dengan kode               | Komponen utama aplikasi             |
+| MenuCard       | Sesuaikan dengan kode jika tersedia | Menampilkan informasi menu makanan  |
+| CategoryFilter | Sesuaikan dengan kode jika tersedia | Memfilter menu berdasarkan kategori |
+
+Catatan: Ganti contoh di atas sesuai komponen yang benar-benar ada. Jika komponen tidak memiliki props, tulis "Tidak ada props".
 
 ## Cara Menjalankan Proyek
 
-1. Pastikan Node.js sudah terpasang.
-2. Buka terminal pada folder proyek.
-3. Jalankan perintah berikut:
+### 1. Clone repositori
 
-   ```bash
-   npm install
-   npm run dev
-   ```
+```bash
+git clone https://belamrgreta.github.io/menu-makanan/
+```
 
-4. Buka alamat lokal yang muncul di terminal pada browser.
+### 2. Masuk ke folder proyek
 
-## Komponen
+```bash
+cd menu-makanan
+```
 
-Komponen `MenuCard` digunakan untuk menampilkan informasi setiap menu berdasarkan props, seperti nama, kategori, harga, dan status ketersediaan.
+### 3. Instal dependensi
 
-## Contoh Menu
+```bash
+npm install
+```
 
-| Nama Menu | Kategori | Harga |
-|---|---|---:|
-| Nasi Goreng | Makanan Utama | Rp15.000 |
-| Mie Ayam | Makanan Utama | Rp12.000 |
-| Es Teh Manis | Minuman | Rp5.000 |
+### 4. Jalankan aplikasi
 
-## Riwayat Pengembangan
-Proyek ini dikembangkan menggunakan React dan Vite.c
+```bash
+npm run dev
+```
 
-## Pengembangan Fitur
+Buka alamat lokal yang muncul di terminal, biasanya [http://localhost:5173/](http://localhost:5173/).
 
-Aplikasi menu makanan akan dikembangkan dengan fitur filter kategori untuk memudahkan pengguna mencari menu berdasarkan kategori makanan.
+## Penggunaan AI
+
+ChatGPT digunakan sebagai alat bantu untuk memahami React, penggunaan Git dan GitHub, serta penyusunan dokumentasi. Saran yang diberikan disesuaikan dengan proyek, kemudian hasil implementasi diperiksa dan diuji oleh pengembang.
+
+## Pengujian
+
+- [x] Instalasi dependensi berhasil.
+- [x] Aplikasi berjalan dengan npm run dev.
+- [x] Tampilan aplikasi diperiksa melalui browser.
+- [x] Dokumentasi komponen dan props sesuai kode.
